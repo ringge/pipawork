@@ -1,0 +1,31 @@
+{
+  "name": "piwork",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "rm -rf .next &&  next build",
+    "start": "next start",
+    "lint": "next lint",
+    "start-local": "pm2 start pm2-dev.json"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@saas-ui/app-shell": "^0.2.0",
+    "@saas-ui/react": "^1.6.2",
+    "@saas-ui/sidebar": "^0.4.0",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.3",
+    "framer-motion": "^6",
+    "next": "13.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "typescript": "4.9.3"
+  }
+}
